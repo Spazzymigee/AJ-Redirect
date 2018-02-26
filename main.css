@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.center {
+    text-align: center;
+	font-size: 55px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+}
+
+.center2 {
+    text-align: center;
+	font-size: 35px;
+	font-family: 'Barlow', sans-serif;
+}
+
+.center3 {
+    text-align: center;
+	font-size: 25px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width : 35%;
+	height: auto;
+}

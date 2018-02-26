@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<link href="https://fonts.googleapis.com/css?family=Barlow|Ubuntu+Condensed" rel="stylesheet">
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	
+<head>
+	<meta charset="utf-8">
+	<title>We've Moved!</title>
+</head>
+
+<body>
+
+<div class="center">
+  <p>We've Moved!</p>
+</div>
+<div class="center2">
+  <p>We are now:</p>
+</div>
+	<a href="http://www.serendipitydessertco.com">
+<img src="SERENDIPITY text temp.png" width="1682" height="680" alt="Serendipity Dessert Comapny Logo"/>
+	</a>
+
+<div class="center2">
+  <p><a href="http://www.serendipitydessertco.com">Click here</a> to go to our new site <br /> or be redirected automatically in <span id="counter">10</span> </p> 
+</div>
+<script type="text/javascript">
+function countdown() {
+	if ( navigator.userAgent.indexOf('Dreamweaver/') === -1 ){
+    	var i = document.getElementById('counter');
+    	if (parseInt(i.innerHTML)<=0) {
+			location.href = "http://www.serendipitydessertco.com";
+    	}
+    	i.innerHTML = parseInt(i.innerHTML)-1;
+	}
+}
+setInterval(function(){ countdown(); },1000);
+</script>
+
+</body>
+</html>
